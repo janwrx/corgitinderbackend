@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: corgi_tinder_production
-  username: corgi_tinder
-  password: <%= ENV['CORGI_TINDER_DATABASE_PASSWORD'] %>
